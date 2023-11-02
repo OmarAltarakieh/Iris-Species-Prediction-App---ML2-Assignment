@@ -394,3 +394,4 @@ zipp @ file:///C:/b/abs_b9jfdr908q/croot/zipp_1672387552360/work
 zope.event==5.0
 zope.interface @ file:///C:/ci_310/zope.interface_1642113633904/work
 zstandard==0.19.0
+sklearn
