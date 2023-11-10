@@ -11,6 +11,7 @@ model = load('iris_knn_classifier.joblib')
 # Main function for the Streamlit app
 def main():
     st.title("Iris Species Prediction App - ML2 Assignment - Omar Altarakieh")
+    st.write("IE MBD Apr 23 S1")
 
     # Input features
     sepal_length = st.slider('SepalLengthCm', 0.0, 8.0)
