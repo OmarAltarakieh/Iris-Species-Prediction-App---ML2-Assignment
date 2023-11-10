@@ -5,8 +5,6 @@ import sklearn
 from joblib import load
 
 # Load the trained model
-#with open('iris_knn_classifier2.pkl', 'rb') as f:
-    #model = pickle.load(f)
 model = load('iris_knn_classifier.joblib')
 # Main function for the Streamlit app
 def main():
