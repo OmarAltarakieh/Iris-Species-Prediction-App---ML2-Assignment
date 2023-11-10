@@ -10,7 +10,7 @@ from joblib import load
 model = load('iris_knn_classifier.joblib')
 # Main function for the Streamlit app
 def main():
-    st.title("Iris Species Prediction App - ML2 Assignment")
+    st.title("Iris Species Prediction App - ML2 Assignment - Omar Altarakieh")
 
     # Input features
     sepal_length = st.slider('SepalLengthCm', 0.0, 8.0)
